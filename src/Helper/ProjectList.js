@@ -1,40 +1,32 @@
-import Image1 from "../Images/proj1.jpg";
-import Image2 from "../Images/proj2.jpg";
-import Image3 from "../Images/proj3.webp";
-import Image4 from "../Images/proj4.webp";
-import Image5 from "../Images/proj5.jpg";
-import Image6 from "../Images/proj6.png";
+import youtube from "../Images/youtube.jpg";
+import samurai from "../Images/page-samurai.jpg";
+import star from "../Images/page-star-wars.jpg";
+import insurance from "../Images/insurance-site.jpg";
 
 const ProjectList = [
     {
-        name: "Dijkstra Algorithm Visualizer",
-        image: Image1,
-        skills: "JavaScript,HTML,CSS",
+        name: "Youtube Clone App",
+        image: youtube,
+        skills: "ReactJS, React-Router-Dom, React-player, axios, @mui/material",
+        link: "https://youtube-nurzhan.vercel.app/"
     },
     {
-        name: "Ecommerce Website",
-        image: Image2,
-        skills: "React,Node.js,MongoDB",
+        name: "Landing Page of Samurai",
+        image: samurai,
+        skills: "JS, HTML, CSS, Bootstrap, Jquery",
+        link: "https://samurai-nurzhan.vercel.app/"
     },
     {
-        name: "Spotify Clone",
-        image: Image3,
-        skills: "React,Node.js,MongoDB,SpotifyAPI",
+        name: "Landing Page of Star Wars",
+        image: star,
+        skills: "HTML, CSS, SASS, Bootstrap",
+        link: "https://star-wars-sigma-black.vercel.app/"
     },
     {
-        name: "Social Media Website",
-        image: Image4,
-        skills: "React,Node.js,MySQL,GraphQL",
-    },
-    {
-        name: "Dashboard Visualizer",
-        image: Image5,
-        skills: "JavaScript,HTML,CSS",
-    },
-    {
-        name: "Mobile Game",
-        image: Image6,
-        skills: "React Native,JavaScript,HTML,CSS",
+        name: "Jusan Garant Insurance Site",
+        image: insurance,
+        skills: "React, Node.js,MySQL,GraphQL",
+        link: "https://jgarant.kz/"
     },
 ]
 
