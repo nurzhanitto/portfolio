@@ -2,6 +2,7 @@ import youtube from "../Images/youtube.jpg";
 import samurai from "../Images/page-samurai.jpg";
 import star from "../Images/page-star-wars.jpg";
 import insurance from "../Images/insurance-site.jpg";
+import nexus from "../Images/nexus.jpg";
 
 const ProjectList = [
     {
@@ -28,6 +29,12 @@ const ProjectList = [
         skills: "React, Node.js,MySQL,GraphQL",
         link: "https://jgarant.kz/"
     },
+    {
+        name: "Nexus Animation Site",
+        image: nexus,
+        skills: "React, CSS, Tailwindcss, gsap",
+        link: "https://nexus-nurzhan.vercel.app/"
+    }
 ]
 
 export default ProjectList
