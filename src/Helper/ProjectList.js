@@ -3,6 +3,7 @@ import samurai from "../Images/page-samurai.jpg";
 import star from "../Images/page-star-wars.jpg";
 import insurance from "../Images/insurance-site.jpg";
 import nexus from "../Images/nexus.jpg";
+import weather from "../Images/weather.jpg";
 
 const ProjectList = [
     {
@@ -34,6 +35,12 @@ const ProjectList = [
         image: nexus,
         skills: "React, CSS, Tailwindcss, gsap",
         link: "https://nexus-nurzhan.vercel.app/"
+    },
+    {
+        name: "Weather App",
+        image: weather,
+        skills: "JS, HTML, CSS, FontAwesome",
+        link: "https://weather-app-nurzhan-lime.vercel.app/"
     }
 ]
 
