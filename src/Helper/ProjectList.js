@@ -5,6 +5,7 @@ import insurance from "../Images/insurance-site.jpg";
 import nexus from "../Images/nexus.jpg";
 import weather from "../Images/weather.jpg";
 import email from "../Images/email-sender.jpg";
+import speech from "../Images/speech-text.jpg";
 
 const ProjectList = [
     {
@@ -48,6 +49,12 @@ const ProjectList = [
         image: email,
         skills: 'JS, HTML, CSS, EmailJS',
         link: "https://email-sender-app-nurzhan.vercel.app/"
+    },
+    {
+        name: "Speech To Text App",
+        image: speech,
+        skills: "JS, HTML, CSS",
+        link: "https://speech-text-app-nurzhan.vercel.app/"
     }
 ]
 
