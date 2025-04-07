@@ -4,6 +4,7 @@ import star from "../Images/page-star-wars.jpg";
 import insurance from "../Images/insurance-site.jpg";
 import nexus from "../Images/nexus.jpg";
 import weather from "../Images/weather.jpg";
+import email from "../Images/email-sender.jpg";
 
 const ProjectList = [
     {
@@ -41,6 +42,12 @@ const ProjectList = [
         image: weather,
         skills: "JS, HTML, CSS, FontAwesome",
         link: "https://weather-app-nurzhan-lime.vercel.app/"
+    },
+    {
+        name: "Email Sender App",
+        image: email,
+        skills: 'JS, HTML, CSS, EmailJS',
+        link: "https://email-sender-app-nurzhan.vercel.app/"
     }
 ]
 
